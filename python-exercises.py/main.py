@@ -1,14 +1,15 @@
-import random
 
-targetNumber = 6
-guess = random.randint(0, 750)
-counter = 1
-# Comparison Operator != means not equal to == means equal to
-while guess != targetNumber:
-    print("Sorry, that's not it.")
-    counter += 1 # Increment the counter
-    guess = random.randint(0, 750)
-    print("Guess again as your guess was ",guess)
-    
-    
-print("You got it after ",counter," tries!")
+# print("You got it after ",counter," tries!")
+
+
+# def greet():
+#     print("Welcome to Skill City")
+
+import mymodule as mm
+import random as rm
+
+mm.sum # vzimame sumata ot mymodule fail a tam sme q napisali s funkciq
+
+
+
+
